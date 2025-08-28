@@ -1,0 +1,91 @@
+#total {
+    width: 98%;
+    max-width: 980px;
+    height: auto;
+    margin: auto; /*centraliza a div na pág*/
+}
+
+#topo{
+    width: 100%;
+    height: auto;
+    float: left;
+    background: linear-gradient(to right, rgba(77, 35, 1, 0.6), rgba(255, 150, 50, 0.6));
+
+    border-radius: 20px;
+
+}
+
+#logo {
+    width: 204px;
+    height: 84px;
+    margin: 18px auto;
+
+}
+
+#menu {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #a1a1a1, #dcdcdc); /* gradiente suave */
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#menu a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#menu a:hover {
+    background-color: #ff8c42;
+    color: white;
+    border-color: #ff8c42;
+    transform: scale(1.05);
+}
+#banner {
+    width: 100%;
+    margin: auto;
+    
+}
+
+#esquerda, #direita {
+    width: 48%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+#direita {
+    float: right;
+}
+
+#esquerda h1, #direita h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#esquerda a, #direita a {
+    color: #555;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: block;
+}
